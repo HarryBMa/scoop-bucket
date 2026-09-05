@@ -1,0 +1,3 @@
+# Scoop writes manifests with CRLF, and `checkver -u` rewrites the whole file.
+# Without this, every autoupdate lands as a diff of every line.
+*.json text eol=crlf
